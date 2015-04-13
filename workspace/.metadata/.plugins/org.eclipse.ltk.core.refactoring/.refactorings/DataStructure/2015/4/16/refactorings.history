@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;nextNode&apos; in &apos;assign2.MyLinkedList.add(...)&apos; to &apos;newNode&apos;&#x0D;&#x0A;- Original project: &apos;DataStructure&apos;&#x0D;&#x0A;- Original element: &apos;assign2.MyLinkedList.add(T).nextNode&apos;&#x0D;&#x0A;- Renamed element: &apos;nextNode&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;nextNode&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;assign2{MyLinkedList.java[MyLinkedList~add~QT;@nextNode!941!976!949!956!QNode\&lt;QT;&gt;;!0!false" name="newNode" references="true" stamp="1428937000011" version="1.0"/>
+</session>

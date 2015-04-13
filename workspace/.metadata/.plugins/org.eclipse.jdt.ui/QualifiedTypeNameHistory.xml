@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.NullPointerException"/>
+<fullyQualifiedTypeName name="assign2.exceptions.CommandParseException"/>
+<fullyQualifiedTypeName name="assign2.exceptions.DatabaseException"/>
+<fullyQualifiedTypeName name="assign2.MyLinkedList"/>
+<fullyQualifiedTypeName name="assign2.QueryResult"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="assign2.Genre"/>
+<fullyQualifiedTypeName name="assign2.Node"/>
+</qualifiedTypeNameHistroy>
