@@ -8,28 +8,21 @@ public class MyLinkedListIterator<T extends Comparable<T>> implements Iterator<T
 
 	// Remove below annotation(@SuppressWarnings("unused")) after you implement this iterator.
 	// This annotation tells compiler that "Do not warn me about this variable not being used".
+	@SuppressWarnings("unused")
 	private final MyLinkedList<T> l;
-	private Node<T> cursor;
 
 	public MyLinkedListIterator(MyLinkedList<T> myLinkedList) {
 		this.l = myLinkedList;
-		cursor=l.head;
 	}
 
 	@Override
 	public boolean hasNext() {
-		if(cursor.next==null)
-			return false;
-		return true;
+		return false;
 	}
 
 	@Override
 	public T next() {
-
-			cursor=cursor.next;
-			
-			return cursor.item;
-
+		return null;
 	}
 
 	@Override

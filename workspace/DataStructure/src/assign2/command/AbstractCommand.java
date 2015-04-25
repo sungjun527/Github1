@@ -14,14 +14,10 @@ public abstract class AbstractCommand implements Command {
 		if (args.isEmpty()) {
 			return new String[] {};
 		} else {
-			String[] splitedArgs=args.trim().split("%");
-			String[] arga;
-			if(splitedArgs.length==2){
-				arga=new String[]{splitedArgs[1]};
-			} else {
-				arga=new String[]{splitedArgs[1], splitedArgs[3]};
-			}
-			return arga;
+			// FIXME implement this
+			// Parse the input appropriately.
+			// You may need to change the return value.
+			return args.split(" ");
 		}
 	}
 

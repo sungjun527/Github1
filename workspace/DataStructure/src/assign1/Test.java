@@ -18,11 +18,5 @@ public class Test {
 		 
 		 System.out.println("123456789".substring("123456789".length()-3));
 		 System.out.println("123456789".subSequence(8, 9).toString());
-		 
-		 String[] a = "%ACTION% %BATMAN BEGINS%".split("%");
-		 for (int i = 0; i < a.length; i++) {
-			System.out.println(a[i]);
-		}
-		 System.out.println("BATMAN BEGINS".contains("BA"));
 	}
 }
